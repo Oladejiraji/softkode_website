@@ -1,8 +1,8 @@
 {
   "_app.js -> react-scroll-motion": {
-    "id": 9554,
+    "id": "_app.js -> react-scroll-motion",
     "files": [
-      "static/chunks/554.b662f17a5830e88b.js"
+      "static/chunks/node_modules_react-scroll-motion_dist_index_js.js"
     ]
   }
 }

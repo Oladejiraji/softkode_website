@@ -1,17 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/api/hello": "pages/api/hello.js",
-  "/career": "pages/career.html",
-  "/contact": "pages/contact.html",
-  "/culture": "pages/culture.html",
-  "/": "pages/index.html",
-  "/member/[name]": "pages/member/[name].html",
-  "/news": "pages/news.html",
-  "/newsletter": "pages/newsletter.html",
-  "/privacy": "pages/privacy.html",
-  "/projects": "pages/projects.html",
-  "/training": "pages/training.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
