@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useGeneralContext } from "../../context/GeneralContext";
 import { useRouter } from "next/router";
+import { myLoader } from "../../Utils/loader";
 
 const Header = ({ black }) => {
   const router = useRouter();

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { myLoader } from "../../Utils/loader";
 
 const Section1 = () => {
   return (
@@ -32,7 +33,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="image2">
-          {/* <Image
+          {/* <Image 
             src="/assets/culture_img1.png"
             alt="arrow"
             width={635}

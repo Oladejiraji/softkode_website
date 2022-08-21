@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
+import { myLoader } from "../../Utils/loader";
 
 const Section4 = () => {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { myLoader } from "../../Utils/loader";
 
 const Section7 = () => {
   return (

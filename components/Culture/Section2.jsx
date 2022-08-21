@@ -4,6 +4,7 @@ import {
   LocomotiveScrollProvider,
   useLocomotiveScroll,
 } from "react-locomotive-scroll";
+import { myLoader } from "../../Utils/loader";
 
 const Section2 = () => {
   const { scroll } = useLocomotiveScroll();

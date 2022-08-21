@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { useGeneralContext } from "../../context/GeneralContext";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { myLoader } from "../../Utils/loader";
 
 const whatVariants = {
   initial: {

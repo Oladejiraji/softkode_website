@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
+import { myLoader } from "../../Utils/loader";
 
 const HorFooter = () => {
   const router = useRouter();

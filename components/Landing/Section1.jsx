@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Controller, Scene } from "react-scrollmagic";
 import { Timeline, Tween } from "react-gsap";
+import { myLoader } from "../../Utils/loader";
 
 const Section1 = () => {
   const [card1Pos, setCard1Pos] = useState(-800);

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ProgressBar from "@ramonak/react-progress-bar";
+import { myLoader } from "../../Utils/loader";
 
 const LoadingScreen = ({ loading, percent }) => {
   return (

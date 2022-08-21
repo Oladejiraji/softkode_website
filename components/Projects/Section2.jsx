@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { myLoader } from "../../Utils/loader";
 
 const Section2 = () => {
   return (
@@ -14,14 +15,17 @@ const Section2 = () => {
           >
             <div className="project2_img">
               <Image
-                src="/assets/image25.png"
+                src="/assets/project1.png"
                 alt="projects"
                 width={553}
-                height={407}
+                height={320}
               />
             </div>
             <div className="project2_content">
-              <p>Find your dream job with some clicks and swipes</p>
+              <p>
+                Welko is a game-changing decentralized marketplace for buying
+                and selling NFTs.
+              </p>
             </div>
           </div>
 
@@ -33,14 +37,17 @@ const Section2 = () => {
           >
             <div className="project2_img">
               <Image
-                src="/assets/image26.png"
+                src="/assets/project2.png"
                 alt="projects"
                 width={553}
-                height={407}
+                height={320}
               />
             </div>
             <div className="project2_content">
-              <p>Inferface that let’s you find the perfect peice with ease</p>
+              <p>
+                Burger Web app for delivering fast food at the convience of your
+                house.
+              </p>
             </div>
           </div>
 
@@ -55,7 +62,7 @@ const Section2 = () => {
                 src="/assets/image27.png"
                 alt="projects"
                 width={553}
-                height={407}
+                height={320}
               />
             </div>
             <div className="project2_content">
@@ -74,7 +81,7 @@ const Section2 = () => {
                 src="/assets/image28.png"
                 alt="projects"
                 width={553}
-                height={407}
+                height={320}
               />
             </div>
             <div className="project2_content">

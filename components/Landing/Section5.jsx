@@ -11,6 +11,7 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Image from "next/image";
 import { useWindowDimensions } from "../../hooks";
+import { myLoader } from "../../Utils/loader";
 
 const Section5 = () => {
   const slideNo = useWindowDimensions();

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { rolesData } from "../../Utils/data";
+import { myLoader } from "../../Utils/loader";
 
 const Section4 = () => {
   return (

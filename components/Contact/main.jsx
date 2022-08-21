@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import { myLoader } from "../../Utils/loader";
 
 const budgetArr = [
   { id: 1, title: "<10,000" },

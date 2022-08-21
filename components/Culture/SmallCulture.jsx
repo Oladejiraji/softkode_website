@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState, useRef } from "react";
+import { myLoader } from "../../Utils/loader";
 
 let bgChange = false;
 const SmallCulture = () => {

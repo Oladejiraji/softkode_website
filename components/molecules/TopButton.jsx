@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useRef, useEffect } from "react";
+import { myLoader } from "../../Utils/loader";
 // import { FiChevronUp } from "react-icons/fi";
 
 const TopButton = () => {
