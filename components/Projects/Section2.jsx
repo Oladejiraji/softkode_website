@@ -66,7 +66,10 @@ const Section2 = () => {
               />
             </div>
             <div className="project2_content">
-              <p>Quick navigation to satisfy your cravings</p>
+              <p>
+                Expand Your Boundaries & Reach Out To Even Wider Audience By
+                Creating A Food Delivery App
+              </p>
             </div>
           </div>
 
@@ -86,7 +89,8 @@ const Section2 = () => {
             </div>
             <div className="project2_content">
               <p>
-                Food for everyone. Just tap and swipe conveniently to get yours
+                Mobile App for finding and meeting new people interested in
+                camping
               </p>
             </div>
           </div>
@@ -107,8 +111,9 @@ const Section2 = () => {
             </div>
             <div className="project2_content">
               <p>
-                With this app, you purchase your favourite football kit
-                hitchfree
+                A mobile app that keep track of your NFT collection and help you
+                discover new items from the world’s first and largest digital
+                marketplace
               </p>
             </div>
           </div>
@@ -128,7 +133,7 @@ const Section2 = () => {
               />
             </div>
             <div className="project2_content">
-              <p>Use easy navigations to get jobs.</p>
+              <p>Adamas , Explore historical museum artifacts.</p>
             </div>
           </div>
         </div>

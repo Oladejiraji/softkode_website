@@ -31,7 +31,7 @@ const main = ({ name }) => {
             shortly.
           </h3>
           <form
-            action="https://formsubmit.co/info@softkodesllc.com"
+            action="https://formsubmit.co/hello@softkodesllc.com"
             method="POST"
           >
             <input

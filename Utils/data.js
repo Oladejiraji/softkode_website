@@ -7,13 +7,13 @@ export const rolesData = [
   },
   {
     id: 2,
-    role: "Backend Engineer (Typescript/Postgres)",
+    role: "Junior Flutter Dev",
     type: "Remote",
     location: "Lagos, Nigeria",
   },
   {
     id: 3,
-    role: "React native engineer",
+    role: "Project Manager",
     type: "Remote",
     location: "Lagos, Nigeria",
   },
@@ -25,19 +25,19 @@ export const rolesData = [
   },
   {
     id: 5,
-    role: "Backend Engineer (Typescript/Postgres)",
+    role: "Frontend Developer",
     type: "Remote",
     location: "Lagos, Nigeria",
   },
   {
     id: 6,
-    role: "React native engineer",
+    role: "Backend engineer",
     type: "Remote",
     location: "Lagos, Nigeria",
   },
   {
     id: 7,
-    role: "Compliance Manager",
+    role: "Senior Frontend Developer",
     type: "In-office",
     location: "Lagos, Nigeria",
   },
@@ -99,7 +99,7 @@ export const trainingData = [
   {
     id: 6,
     course: "Android Development",
-    code: "(SKOUX)",
+    code: "(SK0AD)",
     desc: "Learn Android app development from Scratch to Advance. Learn to code in Java while building fun Android projects.",
     price: "320",
     dur: "12 weeks",
@@ -138,7 +138,7 @@ export const trainingData = [
   },
   {
     id: 11,
-    course: "Phyton",
+    course: "Python",
     code: "(SK06PT)",
     desc: "Master your language with lessons, quizzes, and projects designed for real-life scenarios. Create portfolio projects that showcase your new skills to help land your dream job. ",
     price: "310",

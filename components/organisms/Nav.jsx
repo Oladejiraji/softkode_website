@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/link-passhref */
 import Image from "next/image";
 import React, { useState } from "react";
@@ -135,13 +136,17 @@ const Nav = () => {
             </motion.div>
 
             <div className="nav_header">
-              <div className="title" onClick={() => router.push("/")}>
-                <Image
-                  src="/assets/title.svg"
-                  width={201}
-                  height={79}
-                  alt="logo"
-                />
+              <div className="title">
+                <Link href="/">
+                  <a href="/">
+                    <Image
+                      src="/assets/title.svg"
+                      width={201}
+                      height={79}
+                      alt="logo"
+                    />
+                  </a>
+                </Link>
               </div>
               <div className="nav_icon" onClick={removeNav}>
                 X
@@ -156,34 +161,46 @@ const Nav = () => {
             >
               <div className="nav_links1">
                 <ul>
-                  <motion.li
-                    onClick={() => move("/projects")}
-                    onMouseEnter={() => setWhatShow(true)}
-                    onMouseLeave={() => setWhatShow(false)}
-                  >
-                    <span>01.</span>What we do
-                  </motion.li>
-                  <motion.li
-                    onClick={() => move("/training")}
-                    onMouseEnter={() => setTraShow(true)}
-                    onMouseLeave={() => setTraShow(false)}
-                  >
-                    <span>02.</span>Training
-                  </motion.li>
-                  <motion.li
-                    onClick={() => move("/culture")}
-                    onMouseEnter={() => setCulShow(true)}
-                    onMouseLeave={() => setCulShow(false)}
-                  >
-                    <span>03.</span>Culture
-                  </motion.li>
-                  <motion.li
-                    onClick={() => move("/career")}
-                    onMouseEnter={() => setNewsShow(true)}
-                    onMouseLeave={() => setNewsShow(false)}
-                  >
-                    <span></span>Career
-                  </motion.li>
+                  <Link href="/projects">
+                    <a href="/projects">
+                      <motion.li
+                        onMouseEnter={() => setWhatShow(true)}
+                        onMouseLeave={() => setWhatShow(false)}
+                      >
+                        <span>01.</span>What we do
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="/training">
+                    <a href="/training">
+                      <motion.li
+                        onMouseEnter={() => setTraShow(true)}
+                        onMouseLeave={() => setTraShow(false)}
+                      >
+                        <span>02.</span>Training
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="/culture">
+                    <a href="/culture">
+                      <motion.li
+                        onMouseEnter={() => setCulShow(true)}
+                        onMouseLeave={() => setCulShow(false)}
+                      >
+                        <span>03.</span>Culture
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="/career">
+                    <a href="/career">
+                      <motion.li
+                        onMouseEnter={() => setNewsShow(true)}
+                        onMouseLeave={() => setNewsShow(false)}
+                      >
+                        <span></span>Career
+                      </motion.li>
+                    </a>
+                  </Link>
                   {/* <motion.li
                     onClick={() => move("news")}
                     onMouseEnter={() => setCurrColor("#e5e5e5")}
@@ -217,15 +234,27 @@ const Nav = () => {
                     href="https://www.instagram.com/softkodesworld"
                     target="_blank"
                   >
-                    <li>Instagram</li>
+                    <a
+                      href="https://www.instagram.com/softkodesworld"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <li>Instagram</li>
+                    </a>
                   </Link>
                   <Link
                     href="https://www.linkedin.com/company/softkodes-tech-lim"
                     target="_blank"
                   >
-                    <li>Linkedin</li>
+                    <a
+                      href="https://www.linkedin.com/company/softkodes-tech-lim"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <li>Linkedin</li>
+                    </a>
                   </Link>
-                  <li>Subscribe to our newsletter</li>
+                  <li className="sub">Subscribe to our newsletter</li>
                 </ul>
               </div>
             </div>

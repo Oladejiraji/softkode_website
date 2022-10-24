@@ -18,8 +18,8 @@ const Section5 = () => {
         </div>
         <div className="section5_main2">
           <p>
-            Softkodes is an education platform that empowers creatives to do
-            what they love best: designing visual magic
+            Softkodes is a team that loves to do what they love best: designing
+            visual magic
           </p>
         </div>
       </div>

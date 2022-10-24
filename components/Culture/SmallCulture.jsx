@@ -221,8 +221,8 @@ const SmallCulture = () => {
 
             <h3>Our Agency Policy</h3>
             <p>
-              Softkodes is an education platform that empowers creatives to do
-              what they love best: designing visual magic
+              Softkodes is a team that loves to do what they love best:
+              designing visual magic
             </p>
           </div>
         </div>

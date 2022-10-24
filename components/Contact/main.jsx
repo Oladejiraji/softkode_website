@@ -37,7 +37,7 @@ const Main = () => {
           data-aos-duration="1300"
         >
           <form
-            action="https://formsubmit.co/info@softkodesllc.com"
+            action="https://formsubmit.co/hello@softkodesllc.com"
             method="POST"
           >
             <div

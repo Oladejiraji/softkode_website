@@ -23,7 +23,7 @@ const HorFooter = () => {
                 alt="title"
               />
             </div>
-            <h3>Info@softkodesllc.com</h3>
+            <h3>hello@softkodesllc.com</h3>
             <p>km 5 Refinery road opp Chicken Republic. Effurun Delta state</p>
           </div>
           <div

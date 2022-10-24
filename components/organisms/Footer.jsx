@@ -25,7 +25,7 @@ const Footer = () => {
                 alt="title"
               />
             </div>
-            <h3>Info@softkodesllc.com</h3>
+            <h3>hello@softkodesllc.com</h3>
             <p>km 5 Refinery road opp Chicken Republic. Effurun Delta state</p>
           </div>
           <div
@@ -56,7 +56,13 @@ const Footer = () => {
                 href="https://www.instagram.com/softkodesworld"
                 target="_blank"
               >
-                <li>Instagram</li>
+                <a
+                  href="https://www.instagram.com/softkodesworld"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <li>Instagram</li>
+                </a>
               </Link>
               <li>Twitter</li>
               {/* <li>Behance</li> */}
@@ -64,7 +70,13 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/softkodes-tech-lim"
                 target="_blank"
               >
-                <li>Linkedin</li>
+                <a
+                  href="https://www.linkedin.com/company/softkodes-tech-lim"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <li>Linkedin</li>
+                </a>
               </Link>
               {/* <li>Medium</li> */}
             </ul>
