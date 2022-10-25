@@ -29,7 +29,7 @@ const Section2 = () => {
                   })
                 }
               >
-                ${value.price} ({value.dur})
+                ({value.dur})
               </button>
             </div>
           ))}
