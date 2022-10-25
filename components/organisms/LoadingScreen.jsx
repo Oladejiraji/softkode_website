@@ -8,7 +8,7 @@ const LoadingScreen = ({ loading, percent }) => {
     <div className={loading ? "loading_wrap" : "none"}>
       <div className="loading_left">
         <div className="loading_left_img">
-          <Image src="/assets/title_new.svg" alt="" height={75} width={271} />
+          <Image src="/assets/title.svg" alt="" height={75} width={271} />
         </div>
         <h1 className="blink_anim">Experience</h1>
       </div>
