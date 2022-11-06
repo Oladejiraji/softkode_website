@@ -92,7 +92,7 @@ const Section1 = () => {
                             <p>
                               We specialise in Web development, android
                               development, IOS development, HTML/CSS/JS,
-                              Backend/API, integrated word press
+                              Backend/API, integrated word press.
                             </p>
                           </div>
                         </div>
@@ -228,8 +228,7 @@ const Section1 = () => {
                 <h2>Development</h2>
                 <p className="cont_blur">
                   We specialise in Web development, android development, IOS
-                  development, HTML/CSS/JS, Backend/API, integrated word press
-                  at.
+                  development, HTML/CSS/JS, Backend/API, integrated word press.
                 </p>
               </div>
               <div className="image_wrap">
